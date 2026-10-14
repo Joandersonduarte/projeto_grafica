@@ -1,0 +1,522 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mimô Personalizados | Lembrancinhas e presentes com nome e data</title>
+<meta name="description" content="Presentes e lembrancinhas personalizados para casamento, padrinhos e madrinhas, chá, igreja e festa: caixa de joias, copo térmico, taça gravada, quadro, pratinho e camiseta. Você aprova o layout antes de a gente produzir.">
+<meta name="theme-color" content="#5C3924">
+<link rel="canonical" href="https://www.mimopersonalizados.com.br/">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Mimô Personalizados">
+<meta property="og:title" content="Mimô Personalizados | Lembrancinhas e presentes com nome e data">
+<meta property="og:description" content="Caixa de joias, copo de padrinho, taça gravada, quadro e lembrancinha de mesa — tudo com o nome e a data de quem recebe.">
+<meta property="og:url" content="https://www.mimopersonalizados.com.br/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css?v=1">
+<script src="assets/js/campanha.js?v=1"></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "Mimô Personalizados",
+  "description": "Lembrancinhas e presentes personalizados para casamento, padrinhos e madrinhas, chá, igreja e festa, com nome, data e arte à escolha.",
+  "areaServed": "BR",
+  "slogan": "O presente que leva o nome de quem recebe.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. Rubi Vermelho, 30 — Jardim Atlântico",
+    "addressLocality": "Olinda",
+    "addressRegion": "PE",
+    "addressCountry": "BR"
+  },
+  "openingHours": ["Mo-Fr 08:30-18:00", "Sa 09:00-13:00"],
+  "telephone": "+5581991873132"
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Ir para o conteúdo</a>
+
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a class="brand" href="#hero" aria-label="Mimô Personalizados — início">
+      <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+        <g style="mix-blend-mode:multiply">
+          <circle cx="15" cy="15" r="11" fill="#FADADD"/>
+          <circle cx="25" cy="15" r="11" fill="#C89664" opacity=".88"/>
+          <circle cx="20" cy="24.5" r="11" fill="#5C3924" opacity=".45"/>
+        </g>
+      </svg>
+      <span>
+        <span class="brand__name">Mim<i>ô</i></span>
+        <span class="brand__tag">Personalizados</span>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Navegação principal">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="#sobre">Sobre</a></li>
+        <li><a class="nav__link" href="#galeria">Galeria</a></li>
+        <li><a class="nav__link" href="#processo">Como funciona</a></li>
+        <li><a class="nav__link" href="produtos/index.html">Produtos</a></li>
+        <li><a class="nav__link" href="contato/index.html">Onde comprar</a></li>
+        <li><a class="btn btn--primary btn--sm nav__cta" href="contato/index.html">Pedir orçamento</a></li>
+      </ul>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <p class="eyebrow reveal">Lembrancinhas e presentes personalizados</p>
+        <h1 class="hero__title reveal">O presente que leva <span class="grad">o nome de quem recebe</span>.</h1>
+        <p class="hero__sub reveal">
+          Caixa de joias, copo de padrinho, taça gravada, quadro, pratinho de mesa e
+          camiseta — com o nome, a data e a arte que vocês escolherem. Você aprova o
+          layout antes de a gente produzir.
+        </p>
+        <div class="hero__actions reveal">
+          <a class="btn btn--primary btn--lg" href="contato/index.html">Quero um orçamento</a>
+          <a class="btn btn--ghost btn--lg" href="produtos/index.html">Ver a linha completa</a>
+        </div>
+        <ul class="hero__badges reveal" aria-label="Destaques">
+          <li><strong>Layout aprovado</strong> antes de produzir</li>
+          <li><strong>Peça avulsa</strong> ou lote fechado</li>
+          <li><strong>Envio</strong> para todo o Brasil</li>
+        </ul>
+      </div>
+
+      <div class="hero__visual reveal">
+        <div class="press">
+          <!-- vitrine da home: seis peças reais revezando. main.js lê
+               qualquer .shots da página, então essa troca já funciona
+               sem nenhum JS extra — só o HTML abaixo. -->
+          <!-- sem loading="lazy" aqui de propósito: é a primeira coisa que
+               a página mostra, então as seis já carregam de uma vez — adiar
+               as cinco de trás deixaria a troca entrando em branco. -->
+          <div class="press__sheet shots">
+            <img src="assets/img/caixa-joias-noivos.jpg"
+                 alt="Caixa de joias personalizada com o nome dos noivos e a data gravados na tampa"
+                 class="is-active" fetchpriority="high" decoding="async">
+            <img src="assets/img/copos-padrinho-madrinha.jpg"
+                 alt="Copos térmicos personalizados com os nomes do padrinho e da madrinha"
+                 decoding="async">
+            <img src="assets/img/quadro-spotify.jpg"
+                 alt="Quadro personalizado com o código do Spotify da música do casal"
+                 decoding="async">
+            <img src="assets/img/taca-gravada.jpg"
+                 alt="Taça gravada com a silhueta dos noivos, os nomes e a data"
+                 decoding="async">
+            <img src="assets/img/pratinhos-nomes.jpg"
+                 alt="Pratinhos de cerâmica personalizados com o nome de cada convidada"
+                 decoding="async">
+            <img src="assets/img/boton-cristao.jpg"
+                 alt="Bóton personalizado com versículo"
+                 decoding="async">
+          </div>
+          <span class="press__dot press__dot--c" aria-hidden="true"></span>
+          <span class="press__dot press__dot--m" aria-hidden="true"></span>
+          <span class="press__dot press__dot--y" aria-hidden="true"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COMPROMISSOS ============ -->
+  <section class="commit" aria-label="Nossos compromissos">
+    <div class="container">
+      <ul class="commit__list">
+        <li class="commit__item reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+          <span><strong>Layout aprovado</strong> por você antes de produzir</span>
+        </li>
+        <li class="commit__item reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+          <span><strong>Nome e data</strong> conferidos letra por letra</span>
+        </li>
+        <li class="commit__item reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+          <span><strong>Refazemos sem custo</strong> se o erro for nosso</span>
+        </li>
+        <li class="commit__item reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+          <span><strong>Peça avulsa</strong> ou lote, sem mínimo alto</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ PILARES ============ -->
+  <section class="section" id="sobre">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">O porquê Mimô Personalizados</p>
+        <h2 class="section__title">Personalizado de verdade, não etiqueta colada em cima</h2>
+        <p class="section__lead">
+          Cada peça sai com o nome certo, na grafia certa, na data certa. É isso que
+          separa uma lembrança guardada por anos de um brinde esquecido na gaveta.
+        </p>
+      </div>
+
+      <div class="grid grid--3">
+        <article class="card reveal">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 7.5 9.8 18.2 4 12.4"/></svg>
+          </div>
+          <h3 class="card__title">Você aprova antes</h3>
+          <p class="card__text">
+            Antes de gravar ou estampar, mandamos o layout com o nome, a data e a arte
+            no lugar. Nada é produzido sem o seu ok — e nome gravado errado é um erro
+            que não tem conserto depois.
+          </p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon card__icon--mag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8.5" width="18" height="12" rx="2"/><path d="M3 13h18M12 8.5v12"/><path d="M12 8.5S9.2 3.6 7.2 5.3 9.8 8.5 12 8.5Zm0 0s2.8-4.9 4.8-3.2S14.2 8.5 12 8.5Z"/></svg>
+          </div>
+          <h3 class="card__title">Do convite ao agradecimento</h3>
+          <p class="card__text">
+            Convite de padrinho, lembrancinha de mesa, presente dos noivos, brinde do
+            ministério. Dá para montar a festa inteira com a mesma identidade, falando
+            com uma pessoa só.
+          </p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 8.5 4.5L12 12 3.5 7.5 12 3Z"/><path d="m3.5 12 8.5 4.5 8.5-4.5M3.5 16.5 12 21l8.5-4.5"/></svg>
+          </div>
+          <h3 class="card__title">Sem mínimo alto</h3>
+          <p class="card__text">
+            Dá para pedir uma peça só, para presentear uma pessoa, ou o lote inteiro das
+            madrinhas. O que muda é o valor por unidade — o cuidado com a peça é o mesmo
+            nos dois casos.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALERIA ============ -->
+  <section class="section section--tint" id="galeria">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Galeria</p>
+        <h2 class="section__title">O que a gente faz</h2>
+        <p class="section__lead">
+          Uma amostra da linha, da lembrancinha de mesa ao presente de padrinho. Use os
+          filtros para achar a ocasião que você está organizando.
+        </p>
+      </div>
+
+      <div class="filters reveal" id="filtros" role="group" aria-label="Filtrar a galeria por ocasião"></div>
+      <div class="works" id="lista-galeria"></div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESSO ============ -->
+  <section class="section" id="processo">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Como funciona</p>
+        <h2 class="section__title">Cinco passos entre a sua ideia e a entrega</h2>
+        <p class="section__lead">
+          Você aprova o layout antes de qualquer peça ser gravada. Sem surpresa no nome,
+          na data nem no valor.
+        </p>
+      </div>
+
+      <ol class="steps">
+        <li class="step reveal">
+          <span class="step__dot"></span>
+          <span class="step__num">Passo 01</span>
+          <h3 class="step__title">Você conta a ocasião</h3>
+          <p class="step__text">Casamento, chá, batizado, encontro da igreja. Com a data e uma quantidade aproximada.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__dot"></span>
+          <span class="step__num">Passo 02</span>
+          <h3 class="step__title">A gente sugere as peças</h3>
+          <p class="step__text">O que faz sentido para o seu caso e para o seu orçamento, com o valor por unidade de cada opção.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__dot"></span>
+          <span class="step__num">Passo 03</span>
+          <h3 class="step__title">Você aprova o layout</h3>
+          <p class="step__text">Mandamos a arte com nome, data e cores no lugar. Num lote, a lista inteira vai para você conferir.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__dot"></span>
+          <span class="step__num">Passo 04</span>
+          <h3 class="step__title">Produzimos e embalamos</h3>
+          <p class="step__text">Gravação, estampa e montagem. As peças saem embaladas, prontas para entregar.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__dot"></span>
+          <span class="step__num">Passo 05</span>
+          <h3 class="step__title">Retira ou recebe</h3>
+          <p class="step__text">Combinamos a retirada ou enviamos para todo o Brasil, com o frete fechado no orçamento.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ DIFERENCIAL ============ -->
+  <section class="section section--dark" id="diferencial">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow eyebrow--light">O nosso diferencial</p>
+        <h2 class="section__title">O erro que não tem conserto é o nome escrito errado</h2>
+        <p class="section__lead">
+          Numa peça gravada não existe conserto barato: a peça já foi. Por isso o layout
+          vem antes da produção, sempre — e a lista de nomes passa pelos seus olhos.
+        </p>
+      </div>
+
+      <div class="compare">
+        <div class="compare__col compare__col--before reveal">
+          <h3 class="compare__title"><span class="tag tag--before">Sem a Mimô Personalizados</span></h3>
+          <ul class="compare__list">
+            <li>Pedido fechado por foto de catálogo, sem ver o seu</li>
+            <li>Nome e data só conferidos com a peça na mão</li>
+            <li>Cor da foto diferente da cor que chega</li>
+            <li>Mínimo alto para qualquer personalização</li>
+            <li>Peça errada vira prejuízo seu</li>
+          </ul>
+        </div>
+
+        <div class="compare__arrow reveal" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16M14 6l6 6-6 6"/></svg>
+        </div>
+
+        <div class="compare__col compare__col--after reveal">
+          <h3 class="compare__title"><span class="tag tag--after">Com a Mimô Personalizados</span></h3>
+          <ul class="compare__list">
+            <li>Layout com o seu nome e a sua data, antes de produzir</li>
+            <li>Você confere a grafia de cada nome do lote</li>
+            <li>Avisamos quando a cor da tela não vai sair igual</li>
+            <li>Uma peça ou o lote inteiro, do mesmo jeito</li>
+            <li>Erro nosso, refazemos sem custo</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SEGMENTOS ============ -->
+  <section class="section section--tint" id="segmentos">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Para que ocasião</p>
+        <h2 class="section__title">Da entrada da igreja à mesa de lembrancinha</h2>
+        <p class="section__lead">
+          O que muda de uma festa para a outra não é a peça, é o momento em que ela é
+          entregue. A gente ajuda a escolher o que combina com a sua.
+        </p>
+      </div>
+
+      <div class="segments">
+        <article class="segment reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-7.5-9.6a4.2 4.2 0 0 1 7.5-2.6 4.2 4.2 0 0 1 7.5 2.6c0 5-7.5 9.6-7.5 9.6Z"/></svg>
+          <h3>Casamento</h3>
+          <p>Caixa dos noivos, taça gravada, quadro com a música de vocês e placa para a entrada.</p>
+        </article>
+
+        <article class="segment reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 20v-1.4A4.6 4.6 0 0 1 8.1 14h1.8a4.6 4.6 0 0 1 4.6 4.6V20"/><path d="M16.5 5.2a3.2 3.2 0 0 1 0 5.6M18 14.2a4.6 4.6 0 0 1 2.5 4.1V20"/></svg>
+          <h3>Padrinhos e madrinhas</h3>
+          <p>Para convidar e para agradecer: copo térmico, kit chinelo, necessaire e caixa de joias.</p>
+        </article>
+
+        <article class="segment reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4h12l-1 5.5a5 5 0 0 1-10 0L6 4Z"/><path d="M12 15v5M8.5 20h7"/></svg>
+          <h3>Chá e noivado</h3>
+          <p>Pratinho com nome, vasinho de suculenta e copo long drink para a mesa das convidadas.</p>
+        </article>
+
+        <article class="segment reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M7.5 8.5h9"/><path d="M5 21h14"/></svg>
+          <h3>Igreja e ministério</h3>
+          <p>Bóton com versículo, camiseta do grupo e caneca para o encontro ou o retiro.</p>
+        </article>
+
+        <article class="segment reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="8.5" width="17" height="12" rx="2"/><path d="M3.5 13h17M12 8.5v12"/><path d="M12 8.5S9 3.5 7 5.3 9.8 8.5 12 8.5Zm0 0s3-5 5-3.2S14.2 8.5 12 8.5Z"/></svg>
+          <h3>Aniversário e batizado</h3>
+          <p>Lembrancinha com o nome do aniversariante e caixinha para a saída dos convidados.</p>
+        </article>
+
+        <article class="segment reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9h16l-1 10.2A2 2 0 0 1 17 21H7a2 2 0 0 1-2-1.8L4 9Z"/><path d="M8.5 9V6.5a3.5 3.5 0 0 1 7 0V9"/></svg>
+          <h3>Empresa e equipe</h3>
+          <p>Caneca, ecobag, copo e camiseta com a sua marca, para o time ou para presentear cliente.</p>
+        </article>
+      </div>
+
+      <p class="segments__note reveal">
+        Não achou a sua ocasião? <a href="contato/index.html">Conte o que você precisa</a> que a gente monta sob medida.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section" id="faq">
+    <div class="container faq__inner">
+      <div class="reveal">
+        <p class="eyebrow">Dúvidas frequentes</p>
+        <h2 class="section__title">Antes de pedir, talvez você queira saber</h2>
+        <p class="section__lead">
+          Se ficar qualquer dúvida, é só chamar no WhatsApp. Quem responde é quem vai
+          montar o seu pedido.
+        </p>
+        <div class="faq__cta">
+          <a class="btn btn--primary" href="contato/index.html">Falar com a gente</a>
+        </div>
+      </div>
+
+      <div class="faq__list reveal">
+        <details class="faq__item">
+          <summary>Posso pedir uma peça só?</summary>
+          <div class="faq__answer"><p>Boa parte da linha sai avulsa, para presentear uma pessoa. Alguns itens têm quantidade mínima por causa da produção — o vasinho e o copo long drink, por exemplo, saem a partir de 20. O mínimo de cada peça está escrito no card dela, e a gente confirma no orçamento.</p></div>
+        </details>
+        <details class="faq__item">
+          <summary>Preciso ter a arte pronta?</summary>
+          <div class="faq__answer"><p>Não. Você manda o nome, a data e a ideia, e a gente monta o layout. Se já tiver um monograma, uma arte ou a identidade do seu casamento, usamos a sua.</p></div>
+        </details>
+        <details class="faq__item">
+          <summary>Como vocês garantem que o nome vai sair certo?</summary>
+          <div class="faq__answer"><p>Você recebe o layout com os nomes escritos exatamente como vão ser gravados, e aprova antes de a produção começar. Num lote de madrinhas, mandamos a lista inteira para você conferir uma por uma — numa peça gravada, nome errado não tem conserto barato.</p></div>
+        </details>
+        <details class="faq__item">
+          <summary>Com quanta antecedência eu devo pedir?</summary>
+          <div class="faq__answer"><p>Quanto antes melhor, principalmente para lote de padrinhos e lembrancinha de festa, onde a quantidade pesa no prazo. A data de entrega é fechada no orçamento e conta a partir da sua aprovação do layout.</p></div>
+        </details>
+        <details class="faq__item">
+          <summary>A cor vai ser igual à da foto?</summary>
+          <div class="faq__answer"><p>Tela e impressão trabalham com cores diferentes, então alguma variação existe sempre. Quando o tom que você escolheu for mudar de um jeito perceptível, a gente avisa no layout, antes de produzir.</p></div>
+        </details>
+        <details class="faq__item">
+          <summary>E se a peça chegar com defeito?</summary>
+          <div class="faq__answer"><p>Se o erro for nosso — gravação fora do aprovado, estampa falhada, peça danificada no caminho — refazemos sem custo. Por isso a aprovação do layout é obrigatória: ela é o acordo do que foi combinado.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta">
+    <div class="container cta__inner">
+      <p class="eyebrow eyebrow--light">Comece por aqui</p>
+      <h2 class="cta__title">Conte a ocasião. A gente monta o resto.</h2>
+      <p class="cta__text">
+        Manda a data, a quantidade aproximada e o que você imaginou. A gente volta com
+        as opções que cabem no seu orçamento e o valor por peça de cada uma.
+      </p>
+      <div class="cta__actions">
+        <a class="btn btn--light btn--lg" href="contato/index.html">Pedir orçamento</a>
+        <a class="btn btn--whats btn--lg" href="#" data-zap="Olá! Vim pelo site da Mimô Personalizados e quero um orçamento.">
+          <svg viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 110.9L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 222-99.6 222-222 0-59.3-23.1-115-65-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+          Chamar no WhatsApp
+        </a>
+      </div>
+      <ul class="cta__badges">
+        <li>Layout aprovado antes de produzir</li>
+        <li>Peça avulsa ou lote fechado</li>
+        <li>Envio para todo o Brasil</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <h3 class="footer__name">Mim<i>ô</i></h3>
+        <p class="footer__tagline">Presentes personalizados</p>
+        <p class="footer__pitch">
+          Lembrancinhas e presentes personalizados para casamento, padrinhos e
+          madrinhas, chá, igreja e festa — com nome, data e arte à escolha.
+        </p>
+        <div class="footer__cta">
+          <a class="btn btn--whats btn--sm" href="#" data-zap="Olá! Vim pelo site da Mimô Personalizados e quero um orçamento.">
+            <svg viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 110.9L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 222-99.6 222-222 0-59.3-23.1-115-65-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6z"/></svg>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Apresentação</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="produtos/index.html">Linha completa</a></li>
+          <li><a href="contato/index.html">Onde comprar</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Onde comprar</h4>
+        <ul>
+          <li><a href="https://shopee.com.br/mimo_personalizados?utm_source=site&amp;utm_medium=referral" target="_blank" rel="noopener">Shopee</a></li>
+          <li><a href="https://www.instagram.com/mimohpersonalizados" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="contato/index.html">Direto com a gente</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col footer__col--last">
+        <h4>Loja</h4>
+        <ul>
+          <li>Av. Rubi Vermelho, 30</li>
+          <li>Jardim Atlântico — Olinda/PE</li>
+          <li>Seg a sex 8h30—18h · Sáb 9h—13h</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© 2026 Mimô Personalizados · CNPJ 00.000.000/0001-00</p>
+      <p class="footer__disclaimer">
+        Protótipo de demonstração. A Mimô Personalizados é uma empresa fictícia; produtos, clientes,
+        números e endereços são exemplos para avaliação do layout.
+      </p>
+    </div>
+  </div>
+</footer>
+
+<a class="whats" href="#" data-zap="Olá! Vim pelo site da Mimô Personalizados e quero um orçamento." aria-label="Falar no WhatsApp">
+  <svg class="whats__icon" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 110.9L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 222-99.6 222-222 0-59.3-23.1-115-65-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+  <span class="whats__label">Orçamento no WhatsApp</span>
+</a>
+
+<a class="to-top" id="toTop" href="#hero" aria-label="Voltar ao topo">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</a>
+
+<script src="assets/js/main.js?v=1"></script>
+<script src="assets/js/festa.js?v=1"></script>
+</body>
+</html>
+
+
+
+
